@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavigationBarComponent from './components/NavigationBarComponent';
 import JumbotronComponent from './components/JumbotronComponent';
+import AccordionComponent from './components/AccordionComponent';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <NavigationBarComponent />
       */}
       <JumbotronComponent />
+      <AccordionComponent />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

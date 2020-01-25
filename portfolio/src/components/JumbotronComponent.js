@@ -1,12 +1,13 @@
 import React from 'react';
 import { Container, Jumbotron } from 'react-bootstrap';
+import './JumbotronComponent.css';
 
 function JumbotronComponent() {
   return (
-    <div className="JumbotronComponent">
-        <Jumbotron fluid className="bg-dark">
+    <div className="JumbotronComponent-heading">
+        <Jumbotron fluid className="JumbotronComponent">
           <Container>
-            <h1 className="text-white">Sandeep Sunny</h1>
+            <h1 className="test-white">Sandeep Sunny</h1>
             <p className="text-white">
               This is my portfolio v1
             </p>
