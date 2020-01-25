@@ -44,7 +44,7 @@ class JumbotronComponent extends Component {
                 <h1 className={this.state.data} onMouseEnter={this.toggleColor} onMouseLeave={this.stopToggle}>Sandeep Sunny</h1>
               </Zoom>
               <p className="JumbotronComponent-heading1">
-                This is my portfolio v1
+                Computer Man
               </p>
             </Container>
           </Jumbotron>
