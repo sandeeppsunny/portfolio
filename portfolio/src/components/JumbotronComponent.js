@@ -43,9 +43,11 @@ class JumbotronComponent extends Component {
               <Zoom>
                 <h1 className={this.state.data} onMouseEnter={this.toggleColor} onMouseLeave={this.stopToggle}>Sandeep Sunny</h1>
               </Zoom>
-              <p className="JumbotronComponent-heading1">
-                Computer Man
-              </p>
+              {/*
+                <p className="JumbotronComponent-text">
+                  Computer man
+                </p>
+              */}
             </Container>
           </Jumbotron>
       </div>

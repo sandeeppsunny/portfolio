@@ -1,0 +1,23 @@
+.CardComponent {
+    background-color: #282c34;
+    border-color:#282c34;
+}
+.CardComponent-text {
+    color: #7FFFD4;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+.CardComponent-textpink {
+    color: #ff6781;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+.CardComponent-textblue {
+    color: #00CED1;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+.CardComponent-title {
+    color: #ff6781;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
