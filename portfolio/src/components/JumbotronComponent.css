@@ -1,6 +1,13 @@
-.JumbotronComponent-heading {
+.JumbotronComponent-heading1 {
+    color: #7FFFD4;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+.JumbotronComponent-heading2 {
     color: #61dafb;
 }
+
 .JumbotronComponent{
     background-color: #282c34;
 }
+
