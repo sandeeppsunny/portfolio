@@ -1,10 +1,13 @@
 import React from 'react';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import logo from './logo.svg';
 import './App.css';
+import NavigationBarComponent from './components/NavigationBarComponent';
 
 function App() {
   return (
     <div className="App">
+      <NavigationBarComponent />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
