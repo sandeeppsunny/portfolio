@@ -3,7 +3,7 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 function NavigationBarComponent() {
   return (
-    <div className="App">
+    <div className="NavigationBarComponent">
         <Navbar bg="dark" variant="dark" expand="lg">
             <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

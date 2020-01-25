@@ -3,11 +3,15 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import logo from './logo.svg';
 import './App.css';
 import NavigationBarComponent from './components/NavigationBarComponent';
+import JumbotronComponent from './components/JumbotronComponent';
 
 function App() {
   return (
     <div className="App">
-      <NavigationBarComponent />
+      {/*
+        <NavigationBarComponent />
+      */}
+      <JumbotronComponent />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
